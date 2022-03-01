@@ -89,13 +89,13 @@ if(value3 > value2)
 Console.WriteLine("Приветстсвую!");
 Console.Write("Введите первое целое число: ");
 int value1 = Convert.ToInt32(Console.ReadLine());
-if(value1%2 == 1)
+if(value1%2 == 0)
 {
-    Console.Write("нечетное");
+    Console.Write("четное");
 }
 else
 {
-    Console.Write("четное");
+    Console.Write("нечетное");
 }
 */
 
@@ -113,7 +113,6 @@ Console.Write("Введите натуральное число: ");
 int n = Convert.ToInt32(Console.ReadLine());
 int x = 2;
 
-Console.Write("1 ");
 
 while(x <= n)
 {
