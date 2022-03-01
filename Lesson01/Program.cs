@@ -1,4 +1,4 @@
-/*
+﻿/*
 Задача 1: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
 
 a = 5; b = 7 ->  max = 7
@@ -72,9 +72,7 @@ if(value3 > value2)
         Console.Write(value3);
     }
 }
-
-//if(number > 7 || number < 1)  || обозначает или, if(number <= 7 && number >= 1) && обозначает логическое и.
-
+*/
 
 
 /*
@@ -107,3 +105,20 @@ else
 5  -> 2, 4
 8  -> 2, 4, 6, 8
 */
+
+//Решение Задача4
+/*
+Console.WriteLine("Привет!");
+Console.Write("Введите натуральное число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+int x = 2;
+
+Console.Write("1 ");
+
+while(x <= n)
+{
+    Console.Write(x + " ");
+    x+=2;
+}
+*/
+
