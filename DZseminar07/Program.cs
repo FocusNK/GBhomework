@@ -55,8 +55,6 @@
 
 // 1 7 -> такого числа в массиве нет
 
-
-
 // void 
 // findnumbers (int [,] matri)
 // {
@@ -92,3 +90,61 @@
 // findnumbers(array);
 
 
+
+
+
+// Задача 3. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
+
+// Например, задан массив:
+// 1 4 7 2
+// 5 9 2 3
+// 8 4 2 4
+// Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
+
+
+// void PrintArray (int [,] matri)
+// {
+//     for (int i = 0; i < matri.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < matri.GetLength(1); j++)
+//         {
+//             Console.Write($"{matri[i,j]} ");
+//         }
+//     Console.WriteLine();
+//     }
+// }
+// void FillArray (int[,] matr)
+// {
+//     for (int i= 0; i < matr.GetLength(0); i++)
+//     {
+//         for (int j= 0; j < matr.GetLength(1); j++)
+//         {
+//             matr[i,j] = new Random().Next(1, 9);
+//         }
+//     }
+// }
+// void SummArray (int[,] mat)
+// {
+//     double sum = 0;
+//     double count = 0;
+//     double mid = 0;
+
+//     for (int j = 0; j < mat.GetLength(0); j++)
+//     {
+//         for (int i= 0; i < mat.GetLength(1); i++)
+//         {
+//             sum = mat[j,i] + sum;
+//             count++;
+//         }
+//         mid = sum / count;
+//         Console.Write(mid + " ");
+//     }
+// }
+
+// Console.WriteLine("Введите количество элементов n=");
+// int a = Convert.ToInt32(Console.ReadLine());
+// int b = Convert.ToInt32(Console.ReadLine());
+// int [,] matrix  = new int[a,b];
+// FillArray(matrix);
+// PrintArray(matrix);
+// SummArray(matrix);
